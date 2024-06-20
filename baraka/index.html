@@ -7,6 +7,9 @@
     <meta content="mental health, wellbeing, community support" name="keywords">
     <meta content="Baraka Mental Health Foundation is dedicated to fostering a community that values mental health and wellbeing." name="description">
 
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +28,21 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    
+
+    <style>
+        .navbar {
+            padding: 0.25rem 1rem; /* Reduce padding to make the navbar thinner */
+        }
+        .navbar-brand img {
+            max-height: 50px; /* Reduce logo size to fit within the thinner navbar */
+        }
+        .navbar-nav .nav-link {
+            padding: 0.25rem 1rem; /* Reduce padding to make the navbar thinner */
+        }
+        .btn-hover-bg.btn {
+            padding: 0.25rem 1rem; /* Adjust button padding to match the thinner navbar */
+        }
+    </style>
 </head>
 
 <body>
@@ -36,51 +53,31 @@
     </div>
     <!-- Spinner End -->
 
-<!-- Navbar Start -->
-<div class="container-fluid fixed-top px-0">
-    <div class="container px-0">
-        <!-- 
-        <div class="topbar">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-8">
-                    <div class="topbar-info d-flex flex-wrap">
-                        <a href="#" class="text-light me-4"><i class="fas fa-envelope text-white me-2"></i>barakamentalhealth@gmail.com</a>
-                        <a href="#" class="text-light"><i class="fas fa-phone-alt text-white me-2"></i>+254 781 816 019</a>
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="container px-0">
+            <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                <a href="index.html" class="navbar-brand ms-3">
+                    <img src="img/logo.png" alt="Baraka Mental Health Foundation Logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">Who we are</a>
+                        <a href="service.html" class="nav-item nav-link">What we do</a>
+                        <a href="workwithus.html" class="nav-item nav-link">Get Involved</a>
+                    </div>
+                    <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
+                        <a href="causes.html" class="btn-hover-bg btn btn-primary py-2 px-4 me-3" style="background-color: #FFDF22; border-color: #FFDF22; color: black;">Donate Now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="topbar-icon d-flex align-items-center justify-content-end">
-                        <a href="#" class="btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div> 
-            </div>
+            </nav>
         </div>
-        -->
-        <nav class="navbar navbar-light bg-light navbar-expand-xl">
-            <a href="index.html" class="navbar-brand ms-3">
-                <img src="img/logo.png" alt="Baraka Mental Health Foundation Logo" class="img-fluid" style="max-height: 150px;">
-            </a>
-            <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars text-primary"></span>
-            </button>
-            <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
-                <div class="navbar-nav ms-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Who we are</a>
-                    <a href="service.html" class="nav-item nav-link">What we do</a>
-                    <a href="workwithus.html" class="nav-item nav-link">Get Involved</a>
-                </div>
-                <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
-                    <a href="causes.html" class="btn-hover-bg btn btn-primary py-2 px-4 me-3" style="background-color: #FFDF22; border-color: #FFDF22; color: black;">Donate Now</a>
-                </div>
-            </div>
-        </nav>
     </div>
-</div>
-<!-- Navbar End -->
+    <!-- Navbar End -->
 
 
 
@@ -94,7 +91,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="img/carousel1.png" class="img-fluid" alt="Mental Health and Wellbeing">
+                    <img src="img/carousel1 (1).jpeg" class="img-fluid" alt="Mental Health and Wellbeing">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-1 text-capitalize text-white mb-4">Mental Health and Wellbeing</h1>
@@ -106,7 +103,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carousel2.png" class="img-fluid" alt="Protecting and Promoting Rights">
+                    <img src="img/carousel1 (2).jpeg" class="img-fluid" alt="Protecting and Promoting Rights">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-1 text-capitalize text-white mb-4">Protecting and Promoting Rights</h1>
@@ -284,44 +281,7 @@
     </section>
     <!-- Sustainability End -->
 
-<!-- Thematic Areas Start -->
-<section>
-    <div class="container-fluid thematic-areas py-5 animate__animated" id="thematic-areas">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-2" style="max-width: 800px;">
-                <h5 class="text-uppercase text-primary">Thematic Areas 2024-2029</h5>
-                <p>Our key areas of focus include:</p>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <!-- Thematic Areas Image and Description -->
-                <div class="col-12">
-                    <img src="img/theme.png" class="img-fluid w-100" alt="Thematic Areas Overview" id="thematic-image">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Thematic Areas End -->
 
-
-
-<style>
-    /* Ensure the paragraph container matches the height of the image */
-    #thematic-image {
-        width: 100%;
-        height: auto;
-    }
-
-    #thematic-text {
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-
-    #thematic-text p {
-        margin: 0;
-    }
-</style>
 
 
 
@@ -339,7 +299,7 @@
                     <div class="project-item bg-white p-4 h-100 text-center">
                         <h4 class="mb-4">Mental health awareness programs in schools and colleges in western region</h4>
                         <p>The 2024-2026 program aims to connect with students in schools and colleges throughout the Western region. Its main objectives are to advocate for, counsel, and educate about mental health. Students will learn peer counseling techniques, how to handle different mental health issues, and how to serve as mental health advocates. Teachers will receive training in advocacy, counseling, and addressing mental health concerns both among their students and themselves.</p>
-                         <img src="img/ongoingproject.jpg" class="img-fluid mb-4" alt="Ongoing Project">
+                         <img src="img/ongoingproject.jpeg" class="img-fluid mb-4" alt="Ongoing Project">
                         <a href="service.html" class="btn btn-primary mt-3">Learn More</a>
                     </div>
                 </div>
@@ -480,16 +440,16 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </body>
 </html>
